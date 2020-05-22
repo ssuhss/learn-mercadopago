@@ -1,0 +1,27 @@
+{
+    "autoload": {
+        "psr-4": {
+            "LPMP\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "http://github.com/ssuhss/learn-mercadopago"
+        }
+    ],
+    "require-dev": {
+        "lucatume/wp-browser": "^2.2",
+        "phpcompatibility/php-compatibility": "^8.2",
+        "woocommerce/wc-smooth-generator": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+       "imposter": {
+       "namespace": "LPMP\\Vendor"
+      }
+    },
+    "require": {
+        "enshrined/svg-sanitize": "^0.13"
+    }
+}
